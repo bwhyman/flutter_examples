@@ -30,18 +30,17 @@ class MyHomePage extends StatelessWidget {
   }
 
   _buildImage() {
-    return Image.asset(
-      'images/lake.jpg',
-      fit: BoxFit.contain,
-    );
+      return Image.asset(
+        'images/lake.jpg',
+        fit: BoxFit.contain,
+      );
   }
 
   // 标题区
   _buildTitleSection() {
     return Container(
-      margin: EdgeInsets.fromLTRB(5, 8, 5, 8),
       // 将内部控件往内推
-      padding: EdgeInsets.all(20),
+      margin: EdgeInsets.all(20),
       child: Row(
         children: <Widget>[
           Expanded(

@@ -41,8 +41,8 @@ StatefulWidget，适用于简单的状态处理。类似vue组件内部声明的
 ### BuildContext
 widget对象是不可变对象(引用不可变，封装的属性对象可变)  
 其封装着需要渲染的元素element对象，以及若干属性的对象  
-实际需要在组件树上渲染的，是element对象，而非widget对象
-因此，重新渲染widget时，并不是重写创建widget组件对象，而是重写创建其对应的element对象。即，回调build()方法
+实际需要在组件树上渲染的，是element对象，而非widget对象  
+因此，重新渲染widget时，并不是重新创建widget组件对象，而是重新创建其对应的element对象。即，回调build()方法
 
 创建widget对象后，基于widget对象创建element对象  
 element对象同时持有widget对象引用  
@@ -50,4 +50,4 @@ element对象同时持有widget对象引用
 element实现了BuildContext接口(dart中，类即接口)  
 element对象回调widget build方法，将自己以BuildContext类型传入  
 因此，BuildContext对象，就是element元素对象  
-所以，可以在state对象的build方法中，直接使用widget对象
+因此，可以在state对象的build方法中，直接使用element上的widget对象

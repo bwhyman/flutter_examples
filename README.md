@@ -5,7 +5,7 @@ China, Northeast Forestry University, Software Engineering, Applications for Mob
 移动终端软件设计，为东北林业大学软件工程专业第6学期的一门专业选修课。  
 主讲教师：王波老师
 
-最近几年持续关注移动端的跨平台解决方案，初期的H5/PhoneGap，崛起的React Native，以及最新的Flutter。  
+最近几年持续关注移动端的跨平台(iOS/Android)解决方案，初期的H5/PhoneGap，崛起的React Native，以及最新的Flutter。  
 在综合比较原生Android开发/Flutter/React Native后，决定弃用基于原生Android开发技术的教学，切换到Flutter作为课程最新开发框架。
 
 Flutter稳定版已发布1年有余(current 2020-04)，flutter社区稳定健壮，各种插件框架日趋丰富，
@@ -26,6 +26,9 @@ Flutter稳定版已发布1年有余(current 2020-04)，flutter社区稳定健壮
 
 ### Program Details
 - https://mooc1-1.chaoxing.com/course/211906532.html
+
+### 2020.05.27
+Networking
 
 ### 2020.05.23
 Cart

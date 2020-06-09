@@ -17,15 +17,22 @@ Flutter稳定版已发布1年有余(current 2020-04)，flutter社区稳定健壮
 感谢可爱的学生们的支持，以及各种日新月异的IT技术给我带来的快乐
 
 ### Development Environments
-- Flutter v1.12.13+hotfix.9
-- Android Studio 3.6.3
+- Flutter v1.17.3
+- Android Studio 4.0
 - Android 10 API 29
+- VS Code 1.43.2
 
 鉴于开发环境适配的复杂性，以及至少8GB内存才能撑起的基于AVD模拟器的开发环境。建议采用官方提供的调试平台测试学习
 - https://dartpad.cn/embed-flutter.html
 
 ### Program Details
 - https://mooc1-1.chaoxing.com/course/211906532.html
+
+### 2020.06.09
+Android Studio太占内存，切换到VS Code开发  
+Flutter更新至1.17。修复了需手动降级SDK至28的问题  
+无需添加阿里云gradle仓库配置，也可完成项目的初始化  
+.vscode/launch.json运行配置，在当前在主函数的dart文件按，F5，自动按Flutter项目加载执行  
 
 ### 2020.05.27
 Networking
